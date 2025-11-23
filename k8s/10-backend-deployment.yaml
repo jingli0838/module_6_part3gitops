@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: backend
-          image: ghcr.io/jingli0838/module_6_part3-backend:2182dce284b5be57de64df03c86462374edea509
+          image: ghcr.io/jingli0838/module_6_part3-backend:7a5f79ff64e72c3ec2d6087d2f76d3a19ce97f08
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
